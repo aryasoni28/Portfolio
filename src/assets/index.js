@@ -43,7 +43,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import sahaicerty from "./sahaicerty.png";
-import arithmeniacerty from "./arithmeniacerty.png";
+import arithmeniacerty from "./Arithmeniacerty.png";
 import rvcecerty from "./Hack2skillcerty.png";
 import mrd from "./MRDaward.jpeg";
 import cnr from "./CNRaward.jpeg";

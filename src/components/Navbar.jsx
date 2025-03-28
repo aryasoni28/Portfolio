@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { FaDownload } from "react-icons/fa";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close, github, leetcode, linkedin } from "../assets";
+import { logo, menu, close, github, leetcode, linkedin, gfg_logo } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -43,6 +43,17 @@ const Navbar = () => {
           }}
         >
           <img src={github} alt='logo' className='w-9 h-9 object-contain' />
+          
+        </Link>
+        <Link
+          to='https://www.geeksforgeeks.org/user/aryarsoz37p/'
+          className='flex items-center gap-2'
+          onClick={() => {
+            setActive("");
+            window.scrollTo(0, 0);
+          }}
+        >
+          <img src={gfg_logo} alt='logo' className='w-9 h-9 object-contain' />
           
         </Link>
         <Link

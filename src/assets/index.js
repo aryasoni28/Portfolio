@@ -51,8 +51,10 @@ import distinction from "./distinctionawardthird.jpeg";
 import healthhack from "./healthhackcerty.jpeg";
 import maayacerty from "./maayacerty.jpeg";
 import mpcaprojss from "./mpcaprojss.png";
+import gfg_logo from "./gfg_logo.png";
 export {
   logo,
+  gfg_logo,
   mpcaprojss,
   maayacerty,
   healthhack,

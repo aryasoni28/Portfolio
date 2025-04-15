@@ -24,8 +24,10 @@ const Hero = () => {
             <span style={{ color: "#915EFF", fontWeight: "bold" }}>
               <Typewriter
                 words={[
+                  "Distributed computing",
                   "Full-stack applications",
-                  "Distributed computing | Kafka",
+                  "Competitive programming",
+                  
                 ]}
                 loop={Infinity}
                 cursor

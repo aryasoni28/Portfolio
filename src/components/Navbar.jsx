@@ -57,7 +57,7 @@ const Navbar = () => {
           
         </Link>
         <Link
-          to='https://leetcode.com/u/De-leetcode/'
+          to='https://leetcode.com/u/cheat-code/'
           className='flex items-center gap-2'
           onClick={() => {
             setActive("");
